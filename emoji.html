@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Playground</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; justify-content: center;">
+        <canvas id="playground" width="500" height="500"></canvas>
+    </div>
+    <div id="expression" style="display: flex; justify-content: center;">
+        <div style="margin: 0 10px; display: flex; align-items: center;">
+            <input type="radio" name="expression" id="happy" value="happy">
+            <label style="margin: 0 5px;" for="happy">Happy</label>
+        </div>
+        <div style="margin: 0 10px; display: flex; align-items: center;">
+            <input type="radio" name="expression" id="sad" value="sad">
+            <label style="margin: 0 5px;" for="sad">Sad</label>
+        </div>
+        <div style="margin: 0 10px; display: flex; align-items: center;">
+            <input type="radio" name="expression" id="laugh" value="laugh">
+            <label style="margin: 0 5px;" for="laugh">Laugh</label>
+        </div>
+    </div>
+    <script src="chapter2.js"></script>
+</body>
+
+</html>
