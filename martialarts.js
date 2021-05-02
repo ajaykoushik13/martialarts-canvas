@@ -7,7 +7,7 @@ const loadImage = (url, callback) => {
     image.onload = () => callback(image)
 }
 
-const imagePath = (id, name) => `images/${name}/${id}.png`;
+const imagePath = (id, name) => `martialarts-canvas/images/${name}/${id}.png`;
 
 const imgFrames = {
     idle: [1, 2, 3, 4, 5, 6, 7, 8],
